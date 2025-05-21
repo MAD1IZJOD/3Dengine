@@ -13,7 +13,7 @@ int main() {
             if (event.type == SDL_QUIT)
                 running = false;
         }
-
+ 
         renderer.Clear();
         // Add rendering logic here
         renderer.SwapBuffers();
